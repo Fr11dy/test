@@ -1,9 +1,11 @@
 .main {
-    font-size: 70px;
+    font-size: 60px;
     color: #9e4a0f;
     text-shadow: 5px 2px 1px #18100c;
-    align-items: flex-end;
     text-align: center;
+    position: absolute;
+    top: 2%;
+    left: 40%;
 }
 
 .main1 {
@@ -12,11 +14,24 @@
     color: #e2c4a2;
     text-shadow: 3px 2px 4px #050201;
     text-align: center;
+    background: none;
+    max-width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 32%;
 }
 
 *{
     background: url("./img/coffee.jpg") no-repeat center center fixed;
     background-size: cover;
+}
+
+.icon{
+    position: absolute;
+    left: 2%;
+    width: 128px;
+    height: 128px;
+    background: none;
 }
 
 .options {
@@ -26,14 +41,16 @@
 a {
     text-decoration: unset;
     color: #9e4a0f;
+    background: none;
     
 }
 
 ul{ 
     width: 330px;
-    position: fixed;
-    top: 50px;
-    background: none;
+    position: absolute;
+    top: 150px;
+    left: -1%;
+    background: 0%;
 
 }
 
@@ -45,7 +62,7 @@ li{
     font-weight: 550;
     align-items: start;
     list-style-type: none;
-    background: none;
+    background:0%;
 }
 
 .selected{
@@ -61,11 +78,13 @@ li{
 table{
     border-spacing: 5px;
     border: black;
+    border-radius: 50%;
 }
 
 th {
     background: #6b340c;
     padding: 5px;
+    border-radius: 8%;
 }
 
 .form{
@@ -74,6 +93,7 @@ th {
 }
 
 form {
+    position: absolute;
     border: 2px solid black;
     border-radius: 8px;
     width: 200px;
@@ -84,7 +104,8 @@ form {
     margin: auto;
     background: unset;
     background-color: #6b340c;
-    
+    left: 40%;
+    top: 20%;
 }
 
 .form1 {
