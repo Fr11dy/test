@@ -1,0 +1,99 @@
+.main {
+    font-size: 70px;
+    color: #9e4a0f;
+    text-shadow: 5px 2px 1px #18100c;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.main1 {
+    font-size: 30px;
+    font-weight: 550;
+    color: #e2c4a2;
+    text-shadow: 3px 2px 4px #050201;
+    text-align: center;
+}
+
+*{
+    background: url("./img/coffee.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.options {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: unset;
+    color: #9e4a0f;
+    
+}
+
+ul{ 
+    width: 330px;
+    position: fixed;
+    top: 50px;
+    background: none;
+
+}
+
+li{
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #702107;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+    font-weight: 550;
+    align-items: start;
+    list-style-type: none;
+    background: none;
+}
+
+.selected{
+    color:rgb(163, 131, 91);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #8f5e4d;
+    padding-bottom: 25px;
+    font-weight: 550;
+    align-items: start;
+    list-style-type: none;
+}
+
+table{
+    border-spacing: 5px;
+    border: black;
+}
+
+th {
+    background: #6b340c;
+    padding: 5px;
+}
+
+.form{
+    background: unset;
+    font-weight: 600;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 200px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    background: unset;
+    background-color: #6b340c;
+    
+}
+
+.form1 {
+    background: none;
+    font-size: 25px;
+}
+
+.input{
+    background: none;
+    background-color: #9e6f4e;
+}
+
