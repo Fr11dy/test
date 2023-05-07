@@ -79,12 +79,16 @@ table{
     border-spacing: 5px;
     border: black;
     border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    max-width: 400px;
 }
 
 th {
     background: #6b340c;
-    padding: 5px;
-    border-radius: 8%;
+    padding: 3px;
+    border-radius: 9%;
 }
 
 .form{
